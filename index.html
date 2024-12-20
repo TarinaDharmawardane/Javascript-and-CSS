@@ -1,0 +1,48 @@
+﻿<!-- Tarina Dharmawardane -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Grocery Shop</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>JS Grocery Shop</h1>
+
+    <label>Apple</label>
+    <input type="number" id="appleWeight" placeholder="Kg">
+    Kg @ $
+    <input type="number" id="applePrice" placeholder="Price per Kg">
+    <br><br>
+
+    <label>Orange</label>
+    <input type="number" id="orangeWeight" placeholder="Kg">
+    Kg @ $
+    <input type="number" id="orangePrice" placeholder="Price per Kg">
+    <br><br>
+
+    <label>Grape</label>
+    <input type="number" id="grapeWeight" placeholder="Kg">
+    Kg @ $
+    <input type="number" id="grapePrice" placeholder="Price per Kg">
+    <br><br>
+
+    <label>Discount</label>
+    <select id="discount">
+        <option value="0">0%</option>
+        <option value="5">5%</option>
+        <option value="10">10%</option>
+        <option value="15">15%</option>
+    </select>
+    <br><br>
+
+    <button onclick="calculate()">Calculate</button>
+    <button onclick="resetWeights()">Reset Weights</button>
+    <button onclick="resetPrices()">Reset Prices</button>
+    <button onclick="resetAll()">Reset All</button>
+
+    <p>Total Price: <span id="totalPrice">$0.00</span></p>
+    <p>Total Weight: <span id="totalWeight">0 Kg</span></p>
+</body>
+</html>

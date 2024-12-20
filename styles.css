@@ -1,0 +1,27 @@
+﻿/* Tarina Dharmawardane */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin: 5px 0;
+}
+
+#errorMessage {
+    color: red;
+}
+
+#totalWeight, #totalPrice {
+    color: green;
+}
